@@ -19,7 +19,7 @@ myArray.do(console.log)
 is equivalent to 
 
 ```javascript
-myArray.do(x => {
+myArray.map(x => {
   console.log(x);
   return x;
 })
